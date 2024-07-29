@@ -7,9 +7,9 @@ const Rotas = () => {
 
     return (
 
-        <BrowserRouter>
+        <BrowserRouter basename="/Ficha-Digital/">
             <Routes>
-                <Route Component={Home} path="/" />
+                <Route Component={Home} path="" />
                 <Route Component={Clans} path="/clans" />
                 <Route Component={Disciplinas} path="/Disciplinas" />
             </Routes>
