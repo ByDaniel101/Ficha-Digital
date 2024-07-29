@@ -1,7 +1,7 @@
-import { useLocation } from "react-router-dom";
+//import { useLocation } from "react-router-dom";
 
 const Clans = () => {
-    const location = useLocation();
+    //const location = useLocation();
     return (
         <>
             <h2>Brujah</h2>
